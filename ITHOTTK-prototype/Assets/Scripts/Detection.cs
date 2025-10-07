@@ -37,7 +37,11 @@ public class Detection : MonoBehaviour
 
         detectionLevel = Mathf.Clamp01(detectionLevel);
         detectionSlider.value = detectionLevel;
+        
+        
+        
     }
+    
 }
 
 
